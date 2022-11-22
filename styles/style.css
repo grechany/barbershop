@@ -38,7 +38,9 @@ body {
 }
 
 .main-index {
-    background-image: url("barbershop/images/interior.jpg");
+    background-image: url("/barbershop/images/interior.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
     color: #FFFFFF;
     background-color: #000000;
 }
