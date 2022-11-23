@@ -38,9 +38,36 @@ body {
 }
 
 .main-index {
+    color: #FFFFFF;
+    background-color: #000000;
     background-image: url("/barbershop/images/interior.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
-    color: #FFFFFF;
-    background-color: #000000;
+}
+
+.advantages-list {
+    text-align: center;
+}
+
+.advantages-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+
+.index-columns {
+    background-color: #FBF7F4;
+    color: #242424;
+}
+
+.services-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+
+.services-name {
+    
 }
