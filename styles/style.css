@@ -22,6 +22,19 @@ body {
     color: #242424;
 }
 
+/*Кнопка*/
+.button {
+    font-family: inherit;
+    font-weight: 700;
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*Шапка*/
 .page-header {
     background-color: #000000;
     color: #FFFFFF;
@@ -36,7 +49,7 @@ body {
     color: #FFFFFF;
     text-align: center;
 }
-
+/*Логотип*/
 .main-index {
     color: #FFFFFF;
     background-color: #000000;
@@ -44,7 +57,7 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
-
+/*Преимущества*/
 .advantages-list {
     text-align: center;
 }
@@ -60,7 +73,7 @@ body {
     background-color: #FBF7F4;
     color: #242424;
 }
-
+/*Популярные услуги*/
 .services-title {
     font-weight: 700;
     font-size: 32px;
@@ -69,5 +82,68 @@ body {
 }
 
 .services-name {
-    
+    color: #242424;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.services-price {
+    color: #AF7842;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+/*Фотогалерея*/
+.gallery-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #242424;
+}
+/*Контакты*/
+.contacts-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+
+.contacts-subtitle {
+    color: #AF7842;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.contacts-address-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+}
+
+.contacts-phone {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #242424;
+}
+
+.contacts-schedule-item {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+/*Записаться*/
+.appointment-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    text-transform: uppercase;
 }
