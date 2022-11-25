@@ -72,6 +72,7 @@ body {
 .index-columns {
     background-color: #FBF7F4;
     color: #242424;
+    background-image: url("/barbershop/images/noisy-texture-80x80-o8-d27-c-1f1f1f-t1\ 1.png");
 }
 /*Популярные услуги*/
 .services-title {
@@ -146,4 +147,69 @@ body {
     font-size: 32px;
     line-height: 35px;
     text-transform: uppercase;
+}
+
+.form-label {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.appointment-form-phone {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.appointment-form-name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+/*Подвал*/
+.page-footer {
+    background-color: #242424;
+    color: #FFFFFF;
+    background-image: url("/barbershop/images/noisy-texture-footer.png");
+    background-repeat: repeat;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.page-footer a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF
+}
+
+.page-footer .htmlacademy-link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #DBB590;
+}
+
+.footer-contacts-map-link {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.page-footer-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.about-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
 }
