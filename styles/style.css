@@ -213,3 +213,110 @@ body {
     font-size: 16px;
     line-height: 24px;
 }
+
+/*Каталог*/
+
+.main-inner {
+    background-color: #FBF7F4;
+    background-image: url(/barbershop/images/noisy-texture-80x80-o8-d27-c-1f1f1f-t1\ 1.png);
+}
+
+/*Заголовок*/
+.inner-header-title {
+    color: #242424;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+
+/*Хлебные крошки*/
+.breadcrumbs-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: underline;
+    color: #242424;
+}
+
+.breadcrumbs-link-current {
+    color: #595959;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+/*Цена*/
+.catalog-filter-title {
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.catalog-filter-input {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #242424;
+}
+
+.control-label {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #242424;
+}
+
+/*Сортировка*/
+.select-control {
+    color: #242424;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*Карточки товаров*/
+.product-card-image {
+    width: 220px;
+    height: 168px;
+}
+
+.product-card-title {
+    color: #000000;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.product-card-price {
+    color: #814B18;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.product-card-link {
+    text-decoration: none;
+    text-align: left;
+}
+
+/*Пагинация*/
+.pagination {
+    background-color: #FFFFFF;
+}
+
+.pagination-link {
+    color: #FFFFFF;
+    background-color: #000000;
+    text-decoration: none;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+.pagination-current {
+    color: #242424;
+    background-color: #FFFFFF;
+}
