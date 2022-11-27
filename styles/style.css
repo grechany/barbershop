@@ -2,7 +2,7 @@
     font-family: "PT Sans Narrow";
     font-size: normal;
     font-weight: 400;
-    src: url("fonts/PTSansNarrow-Regular.ttf") format("ttf");
+    src: url("/barbershop/fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
 }
 
@@ -10,7 +10,7 @@
     font-family: "PT Sans Narrow";
     font-size: normal;
     font-weight: 700;
-    src: url("fonts/PTSansNarrow-Bold.ttf") format("ttf");
+    src: url("/barbershop/fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
 }
 
