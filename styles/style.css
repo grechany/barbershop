@@ -14,12 +14,23 @@
     font-display: swap;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
     font-family: "PT Sans Narrow", sans-serif;
     font-size: 16px;
     line-height: 24px;
     background-color: #FBF7F4;
     color: #242424;
+}
+
+.main-container {
+    flex-grow: 1;
 }
 
 /*Кнопка*/
@@ -40,6 +51,23 @@ body {
     color: #FFFFFF;
 }
 
+.navigation {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.navigation-list {
+    margin: 0;
+    padding: 0;
+    width: 320px;
+}
+
+.navigation-user {
+    width: 210px;
+    margin-left: auto;
+}
+
 .navigation-link {
     font-weight: 700;
     font-size: 16px;
@@ -49,7 +77,13 @@ body {
     color: #FFFFFF;
     text-align: center;
 }
-/*Логотип*/
+
+/*Основное*/
+.page-container {
+    width: 940px;
+    margin: 0 auto;
+}
+
 .main-index {
     color: #FFFFFF;
     background-color: #000000;
@@ -57,9 +91,24 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
+
+/*Логотип*/
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
 /*Преимущества*/
 .advantages-list {
+    margin: 0;
+    padding: 0;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-item {
+    width: 270px;
 }
 
 .advantages-title {
@@ -73,8 +122,16 @@ body {
     background-color: #FBF7F4;
     color: #242424;
     background-image: url("/barbershop/images/noisy-texture-80x80-o8-d27-c-1f1f1f-t1\ 1.png");
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
 }
+
 /*Популярные услуги*/
+.services {
+    width: 390px;
+}
+
 .services-title {
     font-weight: 700;
     font-size: 32px;
@@ -97,6 +154,10 @@ body {
     text-transform: uppercase;
 }
 /*Фотогалерея*/
+.gallery {
+    width: 390px;
+}
+
 .gallery-title {
     font-weight: 700;
     font-size: 32px;
@@ -105,6 +166,10 @@ body {
     color: #242424;
 }
 /*Контакты*/
+.contacts {
+    width: 350px;
+}
+
 .contacts-title {
     font-weight: 700;
     font-size: 32px;
@@ -142,6 +207,10 @@ body {
     line-height: 24px;
 }
 /*Записаться*/
+.appointment {
+    width: 430px;
+}
+
 .appointment-title {
     font-weight: 700;
     font-size: 32px;
@@ -177,6 +246,26 @@ body {
     background-repeat: repeat;
     font-size: 14px;
     font-weight: 700;
+}
+
+.page-footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+    margin: 0 auto;
+}
+
+/*Контакты*/
+.footer-contacts {
+    width: 183px;
+}
+
+.newsletter {
+    width: 280px;
+}
+
+.footer-social {
+    width: 185px;
 }
 
 .page-footer a {
