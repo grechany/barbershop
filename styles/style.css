@@ -98,6 +98,11 @@ body {
     margin: 0 auto;
 }
 
+.page-header-logo {
+    width: 140px;
+    margin-right: 100px;
+}
+
 /*Преимущества*/
 .advantages-list {
     margin: 0;
@@ -310,6 +315,10 @@ body {
     background-image: url(/barbershop/images/noisy-texture-80x80-o8-d27-c-1f1f1f-t1\ 1.png);
 }
 
+.catalog-products {
+    display: flex;
+}
+
 /*Заголовок*/
 .inner-header-title {
     color: #242424;
@@ -337,6 +346,15 @@ body {
 }
 
 /*Цена*/
+.catalog-right-column {
+    width: 700px;
+}
+
+.catalog-filter {
+    width: 220px;
+    margin-right: 20px;
+}
+
 .catalog-filter-title {
     color: #000000;
     font-weight: 700;
