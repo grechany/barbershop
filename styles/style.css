@@ -30,10 +30,6 @@ body {
     color: #242424;
 }
 
-.main-container {
-    flex-grow: 1;
-}
-
 /*Кнопка*/
 .button {
     font-family: inherit;
@@ -53,9 +49,9 @@ body {
 }
 
 .navigation {
-    display: flex;
     width: 940px;
     margin: 0 auto;
+    display: flex;
 }
 
 .navigation-list {
@@ -129,6 +125,7 @@ body {
     background-color: #FBF7F4;
     color: #242424;
     background-image: url("/barbershop/images/noisy-texture-80x80-o8-d27-c-1f1f1f-t1\ 1.png");
+    background-repeat: repeat;
     display: flex;
     justify-content: space-between;
     padding: 0 40px;
@@ -256,10 +253,10 @@ body {
 }
 
 .page-footer-container {
-    display: flex;
-    justify-content: space-between;
     width: 940px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 /*Контакты*/
@@ -315,6 +312,7 @@ body {
 .main-inner {
     background-color: #FBF7F4;
     background-image: url(/barbershop/images/noisy-texture-80x80-o8-d27-c-1f1f1f-t1\ 1.png);
+    background-repeat: repeat;
 }
 
 .catalog-products {
