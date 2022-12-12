@@ -80,17 +80,18 @@ body {
 }
 
 /*Основное*/
-.page-container {
-    width: 940px;
-    margin: 0 auto;
-}
-
 .main-index {
+    flex-grow: 1;
     color: #FFFFFF;
     background-color: #000000;
     background-image: url("/barbershop/images/interior.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
+}
+
+.page-container {
+    width: 940px;
+    margin: 0 auto;
 }
 
 /*Логотип*/
