@@ -80,7 +80,7 @@ body {
     flex-grow: 1;
     color: #FFFFFF;
     background-color: #000000;
-    background-image: url("/images/interior.jpg");
+    background-image: url("/barbershop/images/interior.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
@@ -124,7 +124,7 @@ body {
 .index-columns {
     background-color: #FBF7F4;
     color: #242424;
-    background-image: url("/images/noisy-texture-80x80-o8-d27-c-1f1f1f-t1\ 1.png");
+    background-image: url("/barbershop/images/noisy-page.png");
     background-repeat: repeat;
     display: flex;
     justify-content: space-between;
@@ -246,7 +246,7 @@ body {
 .page-footer {
     background-color: #242424;
     color: #FFFFFF;
-    background-image: url("/images/noisy-footer.png");
+    background-image: url("/barbershop/images/noisy-footer.png");
     background-repeat: repeat;
     font-size: 14px;
     font-weight: 700;
@@ -311,7 +311,7 @@ body {
 
 .main-inner {
     background-color: #FBF7F4;
-    background-image: url("/images/noisy-page.png");
+    background-image: url("/barbershop/images/noisy-page.png");
     background-repeat: repeat;
 }
 
