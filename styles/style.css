@@ -76,8 +76,11 @@ body {
 }
 
 /*Основное*/
-.main-index {
+.main-container {
     flex-grow: 1;
+}
+
+.main-index {
     color: #FFFFFF;
     background-color: #000000;
     background-image: url("/barbershop/images/interior.jpg");
