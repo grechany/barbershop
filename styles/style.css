@@ -30,6 +30,17 @@ body {
     color: #242424;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }  
+
 /*Кнопка*/
 .button {
     font-family: inherit;
@@ -57,7 +68,10 @@ body {
 .navigation-list {
     margin: 0;
     padding: 0;
-    width: 320px;
+    width: 470px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .navigation-user {
@@ -66,6 +80,8 @@ body {
 }
 
 .navigation-link {
+    display: block;
+    padding: 24px 19px;
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
