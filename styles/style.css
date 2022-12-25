@@ -53,11 +53,24 @@ body {
     text-decoration: none;
 }
 
+.button-light,
+.button-current {
+  color: #242424;
+  background-color: #FFFFFF;
+}
+
 /*Шапка*/
 .page-header {
     background-color: #000000;
     color: #FFFFFF;
 }
+
+.navigation-logo {
+    display: flex;
+    align-items: center;
+    width: 140px;
+    margin-right: 100px;
+  }
 
 .navigation {
     width: 940px;
@@ -387,6 +400,7 @@ body {
     background-color: #FBF7F4;
     background-image: url("/barbershop/images/noisy-page.png");
     background-repeat: repeat;
+    padding-top: 40px;
 }
 
 .catalog-products {
@@ -400,9 +414,23 @@ body {
     font-size: 32px;
     line-height: 35px;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 16px;
 }
 
 /*Хлебные крошки*/
+.breadcrumbs{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.breadcrumbs-item {
+    margin-right: 32px;
+}
+
 .breadcrumbs-link {
     font-weight: 400;
     font-size: 16px;
@@ -419,14 +447,28 @@ body {
     text-decoration: none;
 }
 
-/*Цена*/
+/*Левая колонка*/
+.catalog-left-column {
+    max-width: 220px;
+    margin-right: 20px;
+}
+
+/*Правая колонка*/
 .catalog-right-column {
     width: 700px;
 }
 
-.catalog-filter {
-    width: 220px;
-    margin-right: 20px;
+.sorting-container {
+    display: flex;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.sorting-container .button {
+    width: 56px;
+    height: 44px;
 }
 
 .catalog-filter-title {
@@ -442,6 +484,7 @@ body {
     font-size: 16px;
     line-height: 22px;
     color: #242424;
+    width: 180px;
 }
 
 .control-label {

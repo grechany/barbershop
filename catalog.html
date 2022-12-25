@@ -11,172 +11,177 @@
   <header class="page-header">
     <nav class="navigation">
       <a class="navigation-logo" href="index.html">
-        <img class="page-header-logo" alt="Логотип барбершоп «Бородинский»" src="/barbershop/images/logo-catalog.svg">
+        <img class="page-header-logo" src="/barbershop/images/logo-catalog.svg" alt="Логотип" width="140" height="18">
       </a>
-      <ul class="navigation-list">
-        <li class="navigation-item">
-          <a class="navigation-link" href="about.html">О нас</a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link navigation-link-current" href="catalog.html">Каталог</a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="faq.html">Частые вопросы</a>
-        </li>
-      </ul>
+        <ul class="navigation-list">
+            <li class="navigation-item">
+                <a class="navigation-link" href="about.html">О нас</a>
+            </li>
+            <li class="navigation-item">
+                <a class="navigation-link" href="catalog.html">Каталог</a>
+            </li>
+            <li class="navigation-item">
+                <a class="navigation-link" href="faq.html">Частые вопросы</a>
+            </li>
+        </ul>
 
-      <ul class="navigation-list navigation-user">
-        <li class="navigation-item">
-          <a class="navigation-link" href="">
-            <span class="visually-hidden">Поиск</span>
-          </a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="">
-            <span class="visually-hidden">Корзина</span>
-          </a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="">Профиль</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+        <ul class="navigation-list navigation-user">
+            <li class="navigation-item">
+                <a class="navigation-link" href="#">
+                    <span class="visually-hidden">Поиск</span>
+                </a>
+            </li>
+            <li class="navigation-item">
+                <a class="navigation-link" href="#">
+                    <span class="visually-hidden">Корзина</span>
+                </a>
+            </li>
+            <li class="navigation-item">
+                <a class="navigation-link" href="#">Вход</a>
+            </li>
+        </ul>
+    </nav>    
+</header>
+
   <main class="main-inner">
     <div class="page-container">
-      <header class="inner-header">
       <!--Заголовок-->
-      <h1 class="inner-header-title">Каталог</h1>
-      <ul class="breadcrumbs">
-        <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link" href="index.html">Главная</a>
-        </li>
-        <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link-current">Каталог</a>
-        </li>
-      </ul>
+      <header class="inner-header">
+        <h1 class="inner-header-title">Каталог</h1>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="index.html">Главная</a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link-current">Каталог</a>
+          </li>
+        </ul>
       </header>
-    <!--Каталог-->
-    <section class="catalog-products">
-      <h2 class="visually-hidden">Список товаров с фильтрами</h2>
-      <!--Цена-->
-      <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-        <fieldset class="catalog-filter-group">
-          <legend class="catalog-filter-title">Цена</legend>
-          <button class="range-toggle toggle-min" type="button">
-            <span class="visually-hidden">Изменить минимальную цену.</span>
-          </button>
-          <button class="range-toggle toggle-max" type="button">
-            <span class="visually-hidden">Изменить максимальную цену.</span>
-          </button>
-
-          <label class="catalog-filter-label">
-            от <input class="catalog-filter-input" type="number" name="min-price"> ₽
-          </label>
-
-          <label class="catalog-filter-label">
-            до <input class="catalog-filter-input" type="number" name="max-price"> ₽
-          </label>
-
-        </fieldset>
-        <!--Производители-->
-        <fieldset class="catalog-filter-group">
-          <legend class="catalog-filter-title">Производители</legend>
-          <ul class="catalog-filter-list">
-            <li class="catalog-filter-item">
-              <label class="control">
-                <input class="visually-hidden control-input" type="checkbox" name="bed-head-for-men">
-                <span class="control-mark"></span>
-            <span class="control-label">Bed Head for Men</span>
+      <!--Каталог-->
+      <section class="catalog-products">
+        <h2 class="visually-hidden">Список товаров с фильтрами</h2>
+        <!--Левая колонка-->
+        <div class="catalog-left-column">
+          <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+            <!--Цена-->
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-title">Цена:</legend>
+    
+              <label class="catalog-filter-label">
+                от <input class="catalog-filter-input" type="number" name="min-price"> ₽
               </label>
-            </li>
-            <li class="catalog-filter-item">
-              <label class="control">
-                <input class="visually-hidden control-input" type="checkbox" name="homme-deep-cleansing-cool" checked>
-                <span class="control-mark"></span>
-            <span class="control-label">Homme Deep Cleansing Cool</span>
+    
+              <label class="catalog-filter-label">
+                до <input class="catalog-filter-input" type="number" name="max-price"> ₽
               </label>
-            </li>
-            <li class="catalog-filter-item">
-              <label class="control">
-                <input class="visually-hidden control-input" type="checkbox" name="so-intense" checked>
-                <span class="control-mark"></span>
-            <span class="control-label">So Intense</span>
-              </label>
-            </li>
-            <li class="catalog-filter-item">
-              <label class="control">
-                <input class="visually-hidden control-input" type="checkbox" name="sprekenhus">
-                <span class="control-mark"></span>
-            <span class="control-label">Sprekenhus</span>
-              </label>
-            </li>
-            <li class="catalog-filter-item">
-              <label class="control">
-                <input class="visually-hidden control-input" type="checkbox" name="firm-storе">
-                <span class="control-mark"></span>
-            <span class="control-label">Firm Storе</span>
-              </label>
-            </li>
-            <li class="catalog-filter-item">
-              <label class="control">
-                <input class="visually-hidden control-input" type="checkbox" name="winter-body" checked>
-                <span class="control-mark"></span>
-            <span class="control-label">Winter Body</span>
-              </label>
-            </li>
-          </ul>
-        </fieldset>
-        <!--Группы товаров-->
-        <fieldset class="catalog-filter-group">
-          <legend class="catalog-filter-title">Группы товаров</legend>
-          <ul class="catalog-filter-list">
-            <li class="catalog-filter-item">
-              <label class="control">
-                <input class="visually-hidden control-input" type="radio" name="product-group" value="shaving-supplies">
-                <span class="control-mark"></span>
-            <span class="control-label">Бритвенные принадлежности</span>
-              </label>
-            </li>
-            <li class="catalog-filter-item">
-              <label class="control">
-                <input class="visually-hidden control-input" type="radio" name="product-group" value="care-products" checked>
-                <span class="control-mark"></span>
-            <span class="control-label">Средства для ухода</span>
-              </label>
-            </li>
-            <li class="catalog-filter-item">
-              <label class="control">
-                <input class="visually-hidden control-input" type="radio" name="product-group" value="accessories">
-                <span class="control-mark"></span>
-            <span class="control-label">Аксессуары</span>
-              </label>
-            </li>
-          </ul>
-        </fieldset>
-        
-        <button class="button" type="submit">Показать</button>
-      </form>
-
-      <!--Сортировка-->
-    <div class="catalog-right-column">
-      <form class="sorting-type">
-        <label class="visually-hidden" for="sorting">Сортировка</label>
-        <select class="select-control" id="sorting" name="sorting">
-          <option value="popular">Сначала популярное</option>
-          <option value="cheap">Сначала дешёвое</option>
-          <option value="expensive">Сначала дорогое</option>
-        </select>
-        <button class="visually-hidden" type="submit">Отсортировать продукты</button>
-      </form>
-      <a href="#" class="button button-light">
-        <span class="visually-hidden">Показать список</span>
-      </a>
-      <a class="button" href="#">
-        <span class="visually-hidden">Показать карточки</span>
-      </a>
-      <!--Карточки товаров-->
-      <ul class="product-list">
+    
+              <button class="range-toggle toggle-min">
+                <span class="visually-hidden">Изменить минимальную цену.</span>
+              </button>
+              <button class="range-toggle toggle-max">
+                <span class="visually-hidden">Изменить максимальную цену.</span>
+              </button>
+            </fieldset>
+            <!--Производители-->
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-title">Производители</legend>
+              <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="visually-hidden control-input" type="checkbox" name="bed-head-for-men">
+                    <span class="control-mark"></span>
+                    <span class="control-label">Bed Head for Men</span>
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="visually-hidden control-input" type="checkbox" name="homme-deep-cleansing-cool" checked>
+                    <span class="control-mark"></span>
+                    <span class="control-label">Homme Deep Cleansing Cool</span>
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="visually-hidden control-input" type="checkbox" name="so-intense" checked>
+                    <span class="control-mark"></span>
+                    <span class="control-label">So Intense</span>
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="visually-hidden control-input" type="checkbox" name="sprekenhus">
+                    <span class="control-mark"></span>
+                    <span class="control-label">Sprekenhus</span>
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="visually-hidden control-input" type="checkbox" name="firm-storе">
+                    <span class="control-mark"></span>
+                    <span class="control-label">Firm Storе</span>
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="visually-hidden control-input" type="checkbox" name="winter-body" checked>
+                    <span class="control-mark"></span>
+                    <span class="control-label">Winter Body</span>
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+            <!--Группы товаров-->
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-title">Группы товаров</legend>
+              <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="visually-hidden control-input" type="radio" name="product-group" value="shaving-supplies">
+                    <span class="control-mark"></span>
+                    <span class="control-label">Бритвенные принадлежности</span>
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="visually-hidden control-input" type="radio" name="product-group" value="care-products" checked>
+                    <span class="control-mark"></span>
+                    <span class="control-label">Средства для ухода</span>
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="visually-hidden control-input" type="radio" name="product-group" value="accessories">
+                    <span class="control-mark"></span>
+                    <span class="control-label">Аксессуары</span>
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+            <!--Кнопка показать-->
+            <button class="button" type="submit">Показать</button>
+          </form>
+        </div>
+        <!--Правая колонка-->
+        <div class="catalog-right-column">
+          <div class="sorting-container">
+            <form class="sorting-type">
+              <label class="visually-hidden" for="sorting">Сортировка</label>
+              <select class="select-control" id="sorting" name="sorting">
+                <option value="popular">Сначала популярное</option>
+                <option value="cheap">Сначала дешёвое</option>
+                <option value="expensive">Сначала дорогое</option>
+              </select>
+              <button class="visually-hidden" type="submit">Отсортировать продукты</button>
+            </form>
+            <a class="button button-light" href="#">
+              <span class="visually-hidden">Показать список</span>
+            </a>
+            <a class="button" href="#">
+              <span class="visually-hidden">Показать карточки</span>
+            </a>
+          </div>  
+          <!--Карточки товаров-->
+          <ul class="product-list">
         <li class="product-card">
           <a class="product-card-link" href="#">
             <img class="product-card-image" src="/barbershop/images/catalog/catalog-1.jpg" alt="Шампунь для мужчин Brews Daily">
@@ -225,9 +230,9 @@
           <b class="product-card-price">904 ₽</b>
           <a class="product-card-button button" href="#">Купить</a>
         </li>
-      </ul>
-      <!--Пагинация-->
-      <ul class="pagination">
+          </ul>
+          <!--Пагинация-->
+          <ul class="pagination">
         <li class="pagination-item">
           <a class="pagination-link pagination-prev pagination-disabled">
             <span class="visually-hidden">Предыдущая страница</span>
@@ -253,12 +258,13 @@
             <span class="visually-hidden">Следующая страница</span>
           </a>
         </li>
-      </ul>
-      <button class="button pagination-show-more" type="button">Показать ещё</button>
-    </section>
+          </ul>
+          <button class="button pagination-show-more" type="button">Показать ещё</button>
+        </div>  
+      </section>
     </div>
-    </div>  
   </main>
+
   <footer class="page-footer">
   <div class="page-footer-container">  
     <section class="footer-contacts">
