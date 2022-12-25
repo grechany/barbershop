@@ -79,6 +79,11 @@ body {
     margin-left: auto;
 }
 
+.navigation-user .navigation-link {
+    min-width: 16px;
+    min-height: 22px;
+}
+
 .navigation-link {
     display: block;
     padding: 24px 19px;
@@ -94,6 +99,8 @@ body {
 /*Основное*/
 .main-container {
     flex-grow: 1;
+    padding-top: 64px;
+    padding-bottom: 60px;
 }
 
 .main-index {
@@ -113,6 +120,7 @@ body {
 .logo {
     display: block;
     margin: 0 auto;
+    margin-bottom: 64px;
 }
 
 .page-header-logo {
@@ -121,12 +129,17 @@ body {
 }
 
 /*Преимущества*/
+.advantages {
+    margin-bottom: 58px;
+}
+
 .advantages-list {
     margin: 0;
     padding: 0;
     text-align: center;
     display: flex;
     justify-content: space-between;
+    list-style-type: none;
 }
 
 .advantages-item {
@@ -138,6 +151,12 @@ body {
     font-size: 32px;
     line-height: 35px;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 56px;
+}
+
+.advantages-description {
+    margin: 0;
 }
 
 .index-columns {
@@ -147,7 +166,12 @@ body {
     background-repeat: repeat;
     display: flex;
     justify-content: space-between;
-    padding: 0 40px;
+    padding: 40px;
+    margin-bottom: 32px;
+}
+
+.index-columns:last-child {
+    margin-bottom: 0;
 }
 
 /*Популярные услуги*/
@@ -160,6 +184,8 @@ body {
     font-size: 32px;
     line-height: 35px;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 28px;
 }
 
 .services-name {
@@ -187,6 +213,8 @@ body {
     line-height: 35px;
     text-transform: uppercase;
     color: #242424;
+    margin-top: 0;
+    margin-bottom: 28px;
 }
 /*Контакты*/
 .contacts {
@@ -198,6 +226,8 @@ body {
     font-size: 32px;
     line-height: 35px;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 28px;
 }
 
 .contacts-subtitle {
@@ -239,6 +269,8 @@ body {
     font-size: 32px;
     line-height: 35px;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 28px;
 }
 
 .form-label {
@@ -276,6 +308,8 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 /*Контакты*/
@@ -288,7 +322,26 @@ body {
 }
 
 .footer-social {
-    width: 185px;
+    width: 190px;
+}
+
+.footer-social-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-social-item {
+    width: 56px;
+    height: 44px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.footer-social-item:nth-child(3n) {
+    margin-right: 0;
 }
 
 .page-footer a {
@@ -317,6 +370,8 @@ body {
     font-size: 20px;
     line-height: 28px;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 14px;
 }
 
 .about-text {
