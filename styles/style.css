@@ -401,6 +401,7 @@ body {
     background-image: url("/barbershop/images/noisy-page.png");
     background-repeat: repeat;
     padding-top: 40px;
+    padding-bottom: 60px;
 }
 
 .catalog-products {
@@ -458,6 +459,10 @@ body {
     width: 700px;
 }
 
+.sorting-type {
+    margin-right: auto;
+}
+
 .sorting-container {
     display: flex;
     color: #000000;
@@ -479,14 +484,6 @@ body {
     text-transform: uppercase;
 }
 
-.catalog-filter-input {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: #242424;
-    width: 180px;
-}
-
 .control-label {
     font-weight: 700;
     font-size: 16px;
@@ -503,6 +500,13 @@ body {
 }
 
 /*Карточки товаров*/
+.product-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 14px;
+}
+
 .product-card-image {
     width: 220px;
     height: 168px;
@@ -528,19 +532,42 @@ body {
 }
 
 /*Пагинация*/
+.pagination-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
 .pagination {
     background-color: #FFFFFF;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 .pagination-link {
+    display: block;
+    box-sizing: border-box;
+    width: 50px;
+    height: 44px;
+    padding: 14px 20px;
+    line-height: 16px;
+    font-weight: 700;
     color: #FFFFFF;
     background-color: #000000;
     text-decoration: none;
-    line-height: 16px;
-    font-weight: 700;
+}
+
+.pagination-item:not(:last-child) {
+    margin-right: 8px;
 }
 
 .pagination-current {
     color: #242424;
     background-color: #FFFFFF;
+}
+
+.pagination-show-more {
+    margin-left: auto;
 }
